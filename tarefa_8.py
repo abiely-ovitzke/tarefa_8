@@ -66,6 +66,6 @@ for usg_value in sorted(multiflow_df["USG_group"].dropna().unique()): # Gera gr√
     plt.grid(True)
     plt.tight_layout()
 
-    filename = f"graficos_usg/FlowDa_USG_{usg_value:.2f}.png"
+    filename = f"graficos_usg/FlowDa_MF_C3b_60_USG_{usg_value:.2f}.png"
     plt.savefig(filename, dpi=300)
     plt.close()
